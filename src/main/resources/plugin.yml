@@ -1,0 +1,19 @@
+name: VanillaPlusEnchants
+version: 1.0.0
+main: ru.vanillaplus.enchants.VanillaPlusEnchants
+api-version: '1.21'
+author: Alexsey
+description: Vanilla+ Custom Enchantments for Purpur 1.21
+
+commands:
+  venchants:
+    description: Main administrative command for VanillaPlusEnchants
+    permission: vanillaplusenchants.admin
+    aliases:
+      - venchant
+      - vpe
+
+permissions:
+  vanillaplusenchants.admin:
+    description: Allows administrative access to custom enchantments
+    default: op
